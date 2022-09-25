@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>introdução a DOM</title>
+    <style>
+        body
+        {
+            background-color:rgba(0, 255, 255, 0.425);
+            color: black;
+            font: normal 20pt arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dom</h1>
+    <div >Clique em mim</div>
+    <p>Aprendendo <strong>DOM</strong> em JavaScript</p>
+    <p>Document Object Model</p>
+    <h2 id="msg">Arvore Dom(tudo que tem dentro de document(Html/body/head))</h2>
+    <p>Windom(Janela)_Location_document_history</p>
+    <p>Document_Html_head</p>
+
+    <script>
+        //Imprimindo o que está no segundo (p) do programa
+        var p1 = window.document.
+        //Pega texto sem formatação
+        getElementsByTagName("p")[1];
+        window.document.write("Está escrito assim : " + p1.innerText)
+        //Mudando cor p[1]
+        p1.style.color = "red"
+        //Pega texto com html inteiro (Formatação toda)
+        getElementsByTagName("p")[1];
+        window.document.write("Está escrito assim : " + p1.innerHTML)
+        var d = window.document.getElementById('msg')
+        d.style.background="grenn"
+
+        
+    </script>
+</body>
+</html>
