@@ -5,4 +5,4 @@ num.push(1)
 console.log(`Nosso vetor é: ${num}`)
 console.log(`Ordem crescente: ${num.sort()}`)
 console.log(`Comprimento vetor: ${num.length}`)
-console
+
