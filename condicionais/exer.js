@@ -26,3 +26,11 @@ if(verificador){
 }else {
     console.log(`caro`);
 }
+
+//ternário
+
+let funcionario = false;
+
+let res= funcionario ? "funcio" : "noFuncio";
+
+console.log(`${res}`)
