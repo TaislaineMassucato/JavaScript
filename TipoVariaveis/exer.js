@@ -9,3 +9,9 @@ console.log(`Preço do bo és ${PrecoBolo}`);
 //corrija codigo abaixo (let "cidade = sao pailo")
 let cidade = "Sao paulo";
 console.log(`Cidade ${cidade}`);
+
+
+//constante // Nao pode ser modificada
+const nome= "gata"
+console.log(nome)
+
