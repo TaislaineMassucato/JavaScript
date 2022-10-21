@@ -25,3 +25,5 @@
     arraycolecao.map((e)=>{
         console.log(e)
     })
+
+    
